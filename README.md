@@ -183,6 +183,8 @@ graph TD
 ```
 learnlens/
 ├── .gitignore                   # Workspace gitignore (secrets, node_modules, build assets)
+├── package.json                 # Monorepo root scripts & Render build orchestration
+├── render.yaml                  # Render deployment blueprint (Backend + Frontend)
 ├── README.md                    # TechXConf documentation & architecture overview
 ├── backend/
 │   ├── .env.example             # Backend environment variable template
