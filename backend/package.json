@@ -1,0 +1,21 @@
+{
+  "name": "learnlens-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^1.2.9",
+    "@ai-sdk/openai": "^3.0.48",
+    "@mastra/core": "^0.7.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "ai": "^6.0.141",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.13.0",
+    "multer": "^1.4.5-lts.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
