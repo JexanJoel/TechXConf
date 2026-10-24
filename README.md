@@ -222,7 +222,7 @@ graph TD
   - Supabase Storage (Original document persistence)
   - Supabase Realtime (WebSockets for Squad Study presence & broadcasts)
 - **Inference Engine**:
-  - Model: `llama-3.3-70b-versatile` running on Groq LPU hardware
+  - Model: Configurable via `GROQ_MODEL` (default: `qwen/qwen3.8-27b` / `llama-3.3-70b-versatile`) running on Groq LPU hardware
 
 ---
 
@@ -299,6 +299,7 @@ PORT=5000
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_SERVICE_KEY=your-supabase-service-role-key
 GROQ_API_KEY=your-groq-api-key
+GROQ_MODEL=qwen/qwen3.8-27b
 ```
 
 **Frontend (`frontend/.env`):**

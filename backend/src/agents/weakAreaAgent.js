@@ -19,7 +19,7 @@ Return ONLY a valid JSON array of weak topic names, no explanation, no markdown,
 Example: ["Newton's Laws", "Thermodynamics", "Optics"]`
 
     const response = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile',
+      model: process.env.GROQ_MODEL || 'qwen/qwen3.8-27b',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.3,
       max_tokens: 256
