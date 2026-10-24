@@ -78,54 +78,6 @@ Students, researchers, and professionals face severe cognitive overload when rea
 
 ---
 
-## 🎬 Live Demo & Media
-
-<div align="center">
-
-[![LearnLens Demo Video](./assets/demo-thumbnail.png)](https://youtu.be/ROrWnkFICtQ)
-
-*Click above to watch the technical walkthrough and live feature demonstration.*
-
-</div>
-
----
-
-## 📸 Platform Interface
-
-<div align="center">
-
-| **Landing & Experience** | **Dashboard & Knowledge Library** |
-|:---:|:---:|
-| ![Landing Page](./assets/screenshots/landing.png) | ![Dashboard](./assets/screenshots/dashboard.png) |
-
-| **AI Study Room (Grounded RAG)** | **Cheat Sheet Generator** |
-|:---:|:---:|
-| ![Study Room Chat](./assets/screenshots/study-room-chat.png) | ![Cheat Sheet](./assets/screenshots/cheat-sheet.png) |
-
-| **Exam Question Predictor** | **3D Interactive Flashcards** |
-|:---:|:---:|
-| ![Exam Predictor](./assets/screenshots/exam-predictor.png) | ![Flashcards](./assets/screenshots/flashcards.png) |
-
-| **Adaptive Timed Quiz** | **Diagnostic Results & Revision** |
-|:---:|:---:|
-| ![Smart Quiz](./assets/screenshots/smart-quiz.png) | ![Quiz Results](./assets/screenshots/quiz-results.png) |
-
-| **Squad Study (Live WebSockets)** | **Tutor Podcast (Dual-Voice TTS)** |
-|:---:|:---:|
-| ![Squad Study](./assets/screenshots/squad-study.png) | ![Tutor Podcast](./assets/screenshots/tutor-podcast.png) |
-
-| **Brain Galaxy (Canvas Graph)** | **Professor Lens (Text & Vision AI)** |
-|:---:|:---:|
-| ![Brain Galaxy](./assets/screenshots/brain-galaxy.png) | ![Professor Lens](./assets/screenshots/professor-lens.png) |
-
-| **Panic Mode (AI Study Scheduler)** | **Study RPG & Gamification** |
-|:---:|:---:|
-| ![Panic Mode](./assets/screenshots/panic-mode.png) | ![Study RPG](./assets/screenshots/study-rpg-levels.png) |
-
-</div>
-
----
-
 ## 🏗️ System Architecture
 
 ```mermaid
@@ -232,9 +184,6 @@ graph TD
 learnlens/
 ├── .gitignore                   # Workspace gitignore (secrets, node_modules, build assets)
 ├── README.md                    # TechXConf documentation & architecture overview
-├── assets/                      # Media assets, thumbnails, and platform screenshots
-│   ├── demo-thumbnail.png
-│   └── screenshots/             # Interface captures for all core modules
 ├── backend/
 │   ├── .env.example             # Backend environment variable template
 │   ├── package.json             # Express dependencies & scripts
